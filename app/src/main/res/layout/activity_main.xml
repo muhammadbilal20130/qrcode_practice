@@ -5,11 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<!--    framelayout for QR code here-->
 
     <FrameLayout
 
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+
 
         <com.budiyev.android.codescanner.CodeScannerView
             android:id="@+id/scanner_view"
